@@ -1,0 +1,22 @@
+{
+  "format_version": 1,
+  "version": 1,
+  "fields": {
+    "login": {
+      "type": "string",
+      "label": "GitHub login",
+      "description": "Whose contribution graph to show.",
+      "default": "vvzvlad",
+      "min_length": 1,
+      "max_length": 39
+    },
+    "token": {
+      "type": "string",
+      "label": "GitHub token",
+      "description": "A personal access token; GitHub's GraphQL API answers only with one.",
+      "default": "",
+      "max_length": 255,
+      "sensitive": true
+    }
+  }
+}
