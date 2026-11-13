@@ -1,0 +1,6 @@
+{
+  "category": "dev-monitoring",
+  "short_description": "Your GitHub contribution graph for the past year on the BUSY Bar's LED screen.",
+  "description": "## How to use\n\n- Create a GitHub personal access token at https://github.com/settings/tokens.\n- In the app's settings, enter your login and the token.\n\n## What you see\n\nThe past year as columns of seven days, one column a week, in GitHub's shades of green. The app updates it every 30 minutes.\n\n## Data\n\nThe GitHub GraphQL API with your token. The token stays in the app's settings on your BUSY Bar.",
+  "changelog": "First release: a year of contributions, updated every 30 minutes."
+}
