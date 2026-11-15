@@ -17,6 +17,18 @@
       "default": "",
       "max_length": 255,
       "sensitive": true
+    },
+    "scheme": {
+      "type": "enum",
+      "label": "Colors",
+      "description": "The colors of the graph's levels.",
+      "default": "green",
+      "options": [
+        { "value": "green", "label": "GitHub green" },
+        { "value": "halloween", "label": "Halloween orange" },
+        { "value": "blue", "label": "Winter blue" },
+        { "value": "purple", "label": "Purple" }
+      ]
     }
   }
 }

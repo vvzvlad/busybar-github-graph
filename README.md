@@ -7,9 +7,10 @@ A JavaScript app for [BUSY Bar](https://busy.app). Work in progress.
 ## What it does
 
 - The front display shows 72 weeks as 72 columns of seven days, one pixel per day, in GitHub's shades of green. Today blinks until your first contribution.
-- The wheel scrolls back through history or shows your streak.
+- The wheel switches between the graph and your current streak in large digits.
 - The back display shows your total for the year, your current streak and your best day.
-- Settings: login, token, color scheme.
+- Without a connection the last graph stays, dimmed, with a red cross in the corner.
+- Settings: login, token, color scheme: GitHub green, Halloween orange, winter blue or purple.
 
 ## Data
 
